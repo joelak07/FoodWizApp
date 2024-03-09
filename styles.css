@@ -42,6 +42,17 @@ header {
     
 }
 
+.read-more-button {
+    background-color: rgb(255, 229, 196);
+    color: black;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
 /* Modal styles */
 .modal {
     display: none;

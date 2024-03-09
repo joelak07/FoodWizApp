@@ -13,3 +13,16 @@ function closeModal() {
 if (!/Mobi|Android/i.test(navigator.userAgent)) {
     alert("This page should be opened on a mobile device.");
 }
+
+function toggleContent() {
+    var moreContent = document.getElementById('moreContent');
+    var button = document.querySelector('button');
+
+    if (moreContent.style.display === 'none') {
+        moreContent.style.display = 'block';
+        button.innerText = 'Read Less';
+    } else {
+        moreContent.style.display = 'none';
+        button.innerText = 'Read More';
+    }
+}
