@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodWiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&family=Merriweather:ital@1&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="FoodWiz.png" alt="App Icon" />
+        <div class="topa">
+            <h1>FoodWiz</h1>
+            <span><a href="https://www.github.com/joelak07">Joel Abraham Koshy</a></span>
+        </div>
+    </header>
+    <main>
+        <div class="app-details">
+            <div class="tophead">
+                <div class="tc">
+                    <i class="fas fa-download jc"></i>
+                    <p class="jc">29MB</p>
+                </div>
+                <div class="tca">
+                    <span>Version</span>
+                    <span>1.5</span>
+                </div>
+            </div>
+            <a href="https://drive.google.com/uc?export=download&id=1YtYgqo3ZAHhahcseknzjm_O7PQd2wPr4" class="download-button">Download</a>
+
+            <div class="screenshots">
+                <img src="sc1.jpg" alt="Screenshot 1" onclick="openModal('sc1.jpg')" />
+                <img src="sc2.jpg" alt="Screenshot 2" onclick="openModal('sc2.jpg')" />
+                <img src="sc3.jpg" alt="Screenshot 3" onclick="openModal('sc3.jpg')" />
+            </div>
+
+            <div id="modal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImage">
+            </div>
+        </div>
+        <div class="about">
+            <h3>About the app</h3>
+            <p>Introducing Food Wiz, the ultimate solution for managing your FoodPark experience! Say goodbye to the hassle of tracking your balance and spending manually. With Food Wiz, you can easily monitor your FoodPark balance and orders, ensuring you always know exactly how much you're spending and what your current balance is.
+
+                Our app stores the entire FoodPark menu in the backend, so you can browse and select your favorite items with ease. But that's not all - Food Wiz also allows you to add custom food items that may not be on the menu, giving you even more flexibility in your food choices.
+                
+                With features like viewing your order history, checking your current balance, and even calculating the average balance you can spend in a day (which is updated dynamically), Food Wiz is your one-stop-shop for all things FoodPark. And the best part? We're constantly working on adding new features and improvements to make your FoodPark experience even better. Stay tuned for exciting updates!</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Joel Abraham Koshy. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

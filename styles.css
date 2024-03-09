@@ -1,0 +1,208 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 245, 231);
+   
+}
+
+header {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+
+   
+
+    img{
+        border-radius: 20px;
+    }
+}
+
+.topa{
+    
+        margin-left: 10px;
+        h1{
+            margin-bottom: 0;
+        }
+
+        span{
+            margin-left: 18px;
+
+            a{
+                text-decoration: none;
+                color: black;
+            
+            }
+        }
+    
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Fade animation for modal */
+.modal-content, .close {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+
+.jc{
+    margin-bottom: 10px;
+}
+
+.screenshots {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.screenshots img {
+    width: 100px; /* Adjust the width as needed */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.screenshots img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.tophead{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: antiquewhite;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 20px;
+
+    p{
+        margin: 0;
+        padding: 0;
+    }
+
+    span{
+        margin:0;
+        padding:0;
+    }
+}
+main {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-details {
+    text-align: center;
+}
+
+.app-details img {
+    border-radius: 10px;
+}
+
+.app-details h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.app-details p {
+    margin-bottom: 20px;
+}
+
+.download-button {
+    display: inline-block;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 80%;
+    transition: background-color 0.3s;
+}
+
+
+.about{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    
+    h3{
+        font-size: 25px;
+    }
+
+    p{
+        color:gray;
+    }
+}
+
+#aboutContent {
+    max-height: 5em; /* Adjust this value to show at least 5 lines */
+    overflow: hidden;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
